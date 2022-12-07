@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "inCharge Person"; ObjectID = "Lq1-Uc-y6Z"; */
+"Lq1-Uc-y6Z.text" = "اسم المسئول";
+
+/* Class = "UITextField"; placeholder = "Enter Id Number"; ObjectID = "MxT-aC-WbC"; */
+"MxT-aC-WbC.placeholder" = "ادخل رقم الهوية";
+
+/* Class = "UITextField"; placeholder = "Enter Phone Number"; ObjectID = "QkB-cV-R6t"; */
+"QkB-cV-R6t.placeholder" = "ادخل رقم الجوال";
+
+/* Class = "UIButton"; normalTitle = "edit"; ObjectID = "Rrf-ZR-99K"; */
+"Rrf-ZR-99K.normalTitle" = "تعديل";
+
+/* Class = "UILabel"; text = "companyName"; ObjectID = "Sey-sS-osk"; */
+"Sey-sS-osk.text" = "اسم المنشأة";
+
+/* Class = "UITextField"; placeholder = "Enter Company Name"; ObjectID = "Tp1-55-9hT"; */
+"Tp1-55-9hT.placeholder" = "ادخل اسم المنشأة";
+
+/* Class = "UILabel"; text = "Phone Number"; ObjectID = "YHy-Ze-V6h"; */
+"YHy-Ze-V6h.text" = "رقم الجوال";
+
+/* Class = "UILabel"; text = "Id Number"; ObjectID = "dgL-dh-xwk"; */
+"dgL-dh-xwk.text" = "رقم الهوية";
+
+/* Class = "UILabel"; text = "companyDetails"; ObjectID = "dvS-Nh-Tac"; */
+"dvS-Nh-Tac.text" = "بيانات الشركة";
+
+/* Class = "UITextField"; placeholder = "Enter Email"; ObjectID = "lKu-Gf-4zC"; */
+"lKu-Gf-4zC.placeholder" = "ادخل البريد الالكترونى";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "qTj-Z1-Vvk"; */
+"qTj-Z1-Vvk.text" = "البريد الالكترونى";
+
+/* Class = "UITextField"; placeholder = "InCharge Person"; ObjectID = "qtG-hM-R4m"; */
+"qtG-hM-R4m.placeholder" = "الشخص المسئول";

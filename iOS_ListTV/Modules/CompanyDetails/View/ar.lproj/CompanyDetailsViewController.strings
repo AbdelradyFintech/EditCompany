@@ -1,0 +1,48 @@
+
+/* Class = "UILabel"; text = "bankName"; ObjectID = "6ol-DB-34e"; */
+"6ol-DB-34e.text" = "اسم البنك";
+
+/* Class = "UILabel"; text = "Iban"; ObjectID = "AUb-Kk-Bw3"; */
+"AUb-Kk-Bw3.text" = "الايبان";
+
+/* Class = "UIButton"; normalTitle = "close"; ObjectID = "Gv8-G7-yGP"; */
+"Gv8-G7-yGP.normalTitle" = "اغلاق الحساب";
+
+/* Class = "UILabel"; text = "CommerialRecord"; ObjectID = "Hc5-a0-MEv"; */
+"Hc5-a0-MEv.text" = "السجل التجارى";
+
+/* Class = "UILabel"; text = "profitShare"; ObjectID = "Mca-vE-ufo"; */
+"Mca-vE-ufo.text" = "تحويل التسويات المالية";
+
+/* Class = "UILabel"; text = "TaxNumber"; ObjectID = "Ri2-gh-rBz"; */
+"Ri2-gh-rBz.text" = "الرقم الضريبى";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "S49-WA-56b"; */
+"S49-WA-56b.text" = "البريد الإلكترونى";
+
+/* Class = "UILabel"; text = "IdNumber"; ObjectID = "eYn-oK-DWh"; */
+"eYn-oK-DWh.text" = "رقم الهوية";
+
+/* Class = "UILabel"; text = "companyName"; ObjectID = "fZs-1l-h8B"; */
+"fZs-1l-h8B.text" = "اسم المنشأة";
+
+/* Class = "UILabel"; text = "companyDetails"; ObjectID = "mwV-QH-mZH"; */
+"mwV-QH-mZH.text" = "بيانات الشركة";
+
+/* Class = "UILabel"; text = "discount"; ObjectID = "o8b-m6-wpZ"; */
+"o8b-m6-wpZ.text" = "نسبة خصم رصيد باى";
+
+/* Class = "UILabel"; text = "profitShare"; ObjectID = "oiu-w9-7LN"; */
+"oiu-w9-7LN.text" = "نسبة ارباح رصيد معاك";
+
+/* Class = "UILabel"; text = "Activities"; ObjectID = "seW-Or-skN"; */
+"seW-Or-skN.text" = "النشاط";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "tNg-GR-87J"; */
+"tNg-GR-87J.text" = "اسم المسئول";
+
+/* Class = "UIButton"; normalTitle = "edit"; ObjectID = "vNa-Lh-ggp"; */
+"vNa-Lh-ggp.normalTitle" = "طلب تعديل";
+
+/* Class = "UILabel"; text = "PhoneNumber"; ObjectID = "zLV-bi-G27"; */
+"zLV-bi-G27.text" = "رقم الجوال";

@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "disagree"; ObjectID = "4VH-Xt-l23"; */
+"4VH-Xt-l23.normalTitle" = "غير موافق";
+
+/* Class = "UIButton"; normalTitle = "agree"; ObjectID = "qcF-AL-Quk"; */
+"qcF-AL-Quk.normalTitle" = "موافق";
+
+/* Class = "UILabel"; text = "do you want to edit company? "; ObjectID = "vAG-pG-1q6"; */
+"vAG-pG-1q6.text" = "هل تريد طلب تعديل بيانات الشركة ؟";

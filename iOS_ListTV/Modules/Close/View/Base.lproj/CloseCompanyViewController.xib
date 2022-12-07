@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21225" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21207"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Cairo-Regular.ttf">
+            <string>Cairo-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CloseCompanyViewController" customModule="iOS_ListTV" customModuleProvider="target">
+            <connections>
+                <outlet property="alertView" destination="Zfa-gx-HcC" id="SFQ-R9-RKN"/>
+                <outlet property="backgroundView" destination="Ten-ve-vt3" id="zlA-Of-Ssr"/>
+                <outlet property="tapGesture" destination="ShU-o3-4nK" id="tue-t9-pYv"/>
+                <outlet property="view" destination="aCA-xT-uPW" id="gZK-u7-xMP"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view opaque="NO" contentMode="scaleToFill" id="aCA-xT-uPW" userLabel="contentView">
+            <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ten-ve-vt3" userLabel="backgroundView">
+                    <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Zfa-gx-HcC">
+                            <rect key="frame" x="16" y="302" width="358" height="240"/>
+                            <subviews>
+                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="info_ic" translatesAutoresizingMaskIntoConstraints="NO" id="0WG-XR-GiG">
+                                    <rect key="frame" x="129" y="-50" width="100" height="100"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="100" id="CUb-KT-NNQ"/>
+                                        <constraint firstAttribute="height" constant="100" id="ppA-kH-uRm"/>
+                                    </constraints>
+                                </imageView>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="do you want to edit company? " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vAG-pG-1q6">
+                                    <rect key="frame" x="70.000000000000014" y="104" width="218.33333333333337" height="32"/>
+                                    <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="17"/>
+                                    <color key="textColor" name="darkBlue"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="shE-PT-1oy">
+                                    <rect key="frame" x="16" y="160" width="326" height="48"/>
+                                    <subviews>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qcF-AL-Quk">
+                                            <rect key="frame" x="0.0" y="0.0" width="155" height="48"/>
+                                            <color key="backgroundColor" red="0.0" green="0.39607843139999999" blue="0.69019607839999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="48" id="LmS-9q-cKn"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="16"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" title="agree">
+                                                <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="radius">
+                                                    <real key="value" value="7"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="agreeButtonAction:" destination="-1" eventType="touchUpInside" id="GqX-06-A4R"/>
+                                            </connections>
+                                        </button>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4VH-Xt-l23">
+                                            <rect key="frame" x="171" y="0.0" width="155" height="48"/>
+                                            <color key="backgroundColor" red="0.98431372549999996" green="0.98431372549999996" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="48" id="4vd-ua-55o"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" name="Cairo-Regular" family="Cairo" pointSize="16"/>
+                                            <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                            <state key="normal" title="disagree">
+                                                <color key="titleColor" name="darkBlue"/>
+                                            </state>
+                                            <userDefinedRuntimeAttributes>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="radius">
+                                                    <real key="value" value="7"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                    <real key="value" value="1"/>
+                                                </userDefinedRuntimeAttribute>
+                                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                    <color key="value" name="darkBlue"/>
+                                                </userDefinedRuntimeAttribute>
+                                            </userDefinedRuntimeAttributes>
+                                            <connections>
+                                                <action selector="disagreeButtonAction:" destination="-1" eventType="touchUpInside" id="PMw-en-y2s"/>
+                                            </connections>
+                                        </button>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="shE-PT-1oy" secondAttribute="bottom" constant="32" id="3z7-sS-4rw"/>
+                                <constraint firstItem="shE-PT-1oy" firstAttribute="leading" secondItem="Zfa-gx-HcC" secondAttribute="leading" constant="16" id="7lN-QK-MmI"/>
+                                <constraint firstItem="shE-PT-1oy" firstAttribute="trailing" secondItem="Zfa-gx-HcC" secondAttribute="trailing" constant="-16" id="Nxv-I6-aEK"/>
+                                <constraint firstItem="shE-PT-1oy" firstAttribute="top" secondItem="vAG-pG-1q6" secondAttribute="bottom" constant="24" id="TKZ-fI-THZ"/>
+                                <constraint firstItem="vAG-pG-1q6" firstAttribute="centerX" secondItem="Zfa-gx-HcC" secondAttribute="centerX" id="hmV-t4-FSz"/>
+                                <constraint firstItem="0WG-XR-GiG" firstAttribute="centerY" secondItem="Zfa-gx-HcC" secondAttribute="top" id="l7c-iE-cKO"/>
+                                <constraint firstItem="0WG-XR-GiG" firstAttribute="centerX" secondItem="Zfa-gx-HcC" secondAttribute="centerX" id="sa2-a9-gp5"/>
+                                <constraint firstItem="vAG-pG-1q6" firstAttribute="centerY" secondItem="Zfa-gx-HcC" secondAttribute="centerY" id="wGs-v3-Srh"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="radius">
+                                    <real key="value" value="10"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <gestureRecognizers/>
+                    <constraints>
+                        <constraint firstItem="Zfa-gx-HcC" firstAttribute="leading" secondItem="Ten-ve-vt3" secondAttribute="leading" constant="16" id="p7a-58-mM5"/>
+                        <constraint firstItem="Zfa-gx-HcC" firstAttribute="centerY" secondItem="Ten-ve-vt3" secondAttribute="centerY" id="qli-Tt-4no"/>
+                        <constraint firstAttribute="trailing" secondItem="Zfa-gx-HcC" secondAttribute="trailing" constant="16" id="uxA-CF-07U"/>
+                    </constraints>
+                    <connections>
+                        <outletCollection property="gestureRecognizers" destination="ShU-o3-4nK" appends="YES" id="AQG-DH-C3h"/>
+                    </connections>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Tir-N3-vIA"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Ten-ve-vt3" secondAttribute="bottom" id="IDn-a2-Am0"/>
+                <constraint firstItem="Ten-ve-vt3" firstAttribute="top" secondItem="aCA-xT-uPW" secondAttribute="top" id="JaO-6b-Ig7"/>
+                <constraint firstItem="Tir-N3-vIA" firstAttribute="trailing" secondItem="Ten-ve-vt3" secondAttribute="trailing" id="PLn-Rh-1Wf"/>
+                <constraint firstItem="Ten-ve-vt3" firstAttribute="leading" secondItem="Tir-N3-vIA" secondAttribute="leading" id="Uvz-2c-5dc"/>
+            </constraints>
+            <point key="canvasLocation" x="-112.30769230769231" y="20.616113744075829"/>
+        </view>
+        <tapGestureRecognizer id="ShU-o3-4nK">
+            <connections>
+                <action selector="tapGestureAction:" destination="-1" id="oMH-ax-v3p"/>
+            </connections>
+        </tapGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="info_ic" width="100" height="100"/>
+        <namedColor name="darkBlue">
+            <color red="0.0" green="0.39599999785423279" blue="0.68999999761581421" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
